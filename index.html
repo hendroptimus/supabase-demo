@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pesan Pengunjung</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Kirim Pesan</h1>
+  <form id="message-form">
+    <input type="text" id="name" placeholder="Nama" required />
+    <textarea id="message" placeholder="Pesan" required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <h2>Pesan Terkirim:</h2>
+  <ul id="messages-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
